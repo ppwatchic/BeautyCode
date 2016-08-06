@@ -9,7 +9,7 @@ con:
 ```
 pro: `if(m==0 || n==0) return m + n;`   
 
-2, magic number 1: 
+2, magic number 1:   
 con: 
 ```   
       if(m == 1) return n;    
