@@ -1,4 +1,4 @@
-There are a few simple tips to make code more concise, and beauty. (in Java)
+Here are a few simple tips to make code more concise, and beauty. (in Java)
 
 ##Less Code Maker
 1, magic number 0:   
