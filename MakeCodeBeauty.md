@@ -45,8 +45,9 @@ public class Graph{
 }
 ```  
 pro:
-1) less code in build up a graph when calling addEdge();  
-2) We can easily build up edges with same vertex addEdge(v, x).addEdge(v,y).addEdge(v,z)...   
+1) Less code in build up a graph when calling addEdge();  
+2) We can easily build up edges with same vertex addEdge(v, x).addEdge(v,y).addEdge(v,z)...  
+3) Or we can build up connections like addEdge(a, b).addEdge(b, c).addEdge(c, d)...  
 ```
       ...
       Graph addEdge(int v, int w) {
@@ -56,6 +57,7 @@ pro:
       public static main(String[] args) {
             Graph g = new Graph();
             g.addEdge(3,4).addEdge(3,5);
+            g.addEdge(2, 3).addEdge(3, 6).addEdge(6, 9).addEdge(9, 10);
             ...
       }
 ```
