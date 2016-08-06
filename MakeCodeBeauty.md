@@ -9,10 +9,10 @@ cons:
 pros: `if(i==0 || j==0) return i + j;`   
 
 ##Follow the logic, No turn
-cons: `if(isOK != true) doSomething();` 
+cons: `if(isOK != true) doSomething();`   
 pros: `if(isOK == false) doSomething();` 
 
-cons: `return v1 < v2 ? v1 : v2;`
+cons: `return v1 < v2 ? v1 : v2;`  
 pros: `return v1 > v2 ? v2 : v1;` 
 
 
