@@ -1,12 +1,24 @@
 There are a few simple tips to make code more concise, and beauty. (in Java)
 
 ##Less Code Maker
+1, magic number 0:   
 con: 
 ```   
-      if(i == 0) return j;    
-      if(j == 0) return i;
+      if(m == 0) return n;    
+      if(n == 0) return m;
 ```
-pro: `if(i==0 || j==0) return i + j;`   
+pro: `if(m==0 || n==0) return m + n;`   
+
+2, magic number 1: 
+con: 
+```   
+      if(m == 1) return n;    
+      if(n == 1) return m;
+```    
+pro: 
+```   
+      if(m==1 || n==1) return m * n;
+```  
 
 ##Follow the logic, No turn
 con: `if(isOK != true) doSomething();`   
