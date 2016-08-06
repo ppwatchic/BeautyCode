@@ -31,7 +31,7 @@ public class Graph{
             ...
       }
 }
-```
+```  
 pro:
 1) less code in build up a graph when calling addEdge();
 2) You can easily build up edges with same vertex addEdge(v, x).addEdge(v,y).addEdge(v,z)... 
