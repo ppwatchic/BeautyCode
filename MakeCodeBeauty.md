@@ -66,14 +66,14 @@ pro:
 con:  
 ```
 if(cond == false) 
-      return;
+      return statement;
 else
       doSomething();
 ```  
 pro:  
 ```
-if(cond == false
-      return;
+if(cond == false)
+      return statement;
 doSomething();
 ```  
 
