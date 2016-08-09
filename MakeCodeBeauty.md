@@ -62,3 +62,19 @@ pro:
       }
 ```
 
+##Decisive Effect  
+con:  
+```
+if(cond == false) 
+      return;
+else
+      doSomething();
+```  
+pro:  
+```
+if(cond == false
+      return;
+doSomething();
+```  
+
+      
